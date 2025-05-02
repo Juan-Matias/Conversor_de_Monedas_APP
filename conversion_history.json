@@ -1,0 +1,26 @@
+[
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "ARS",
+    "rate": 1172.0,
+    "convertedAmount": 2344000.0
+  },
+  {
+    "fromCurrency": "BRL",
+    "toCurrency": "USD",
+    "rate": 0.1763,
+    "convertedAmount": 705.2
+  },
+  {
+    "fromCurrency": "BRL",
+    "toCurrency": "USD",
+    "rate": 0.1763,
+    "convertedAmount": 352.6
+  },
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "COP",
+    "rate": 4235.0388,
+    "convertedAmount": 1.69401552E7
+  }
+]
