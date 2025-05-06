@@ -112,14 +112,17 @@ El historial se guarda en formato JSON:
 🚀 Cómo usar
 Ejecuta la aplicación:
 
-bash
+```bash
 java -jar ConversorDeMoneda.jar
-Selecciona una opción del menú:
+```
 
+Selecciona una opción del menú:
+```
 1. USD → ARS
 2. ARS → USD
 3. USD → BRL
-...
+````
+
 Ingresa el monto a convertir
 
 📦 Requisitos e instalación
@@ -140,4 +143,4 @@ mvn clean install
 📜 Licencia
 Este proyecto está bajo licencia MIT. Ver archivo LICENSE para más detalles.
 
-<div align="center"> Hecho con ❤️ por Juan Matías | 2023 </div> ```
+<div align="center"> Hecho con ❤️ por Juan Matías | 2023 </div> 
