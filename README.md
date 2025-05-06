@@ -4,10 +4,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![API](https://img.shields.io/badge/API-ExchangeRate--API-orange)
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Juan-Matias/Conversor_de_Monedas_APP/main/src/Resource/currency-exchange.svg" width="200" alt="Icono conversor">
-</div>
-
 ## 📝 Descripción
 Un **conversor de monedas** moderno desarrollado en Java que utiliza la API de [ExchangeRate-API](https://www.exchangerate-api.com/) para conversiones en tiempo real entre las principales monedas de América Latina.
 
