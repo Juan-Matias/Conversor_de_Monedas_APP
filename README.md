@@ -103,7 +103,7 @@ El historial se guarda en formato JSON:
 ]
 ```
 
-🚀 Cómo usar
+## 🚀 Cómo usar
 Ejecuta la aplicación:
 
 ```bash
@@ -111,15 +111,13 @@ java -jar ConversorDeMoneda.jar
 ```
 
 Selecciona una opción del menú:
-```
+```bash
 1. USD → ARS
 2. ARS → USD
 3. USD → BRL
-````
-
 Ingresa el monto a convertir
-
-📦 Requisitos e instalación
+````
+## 📦 Requisitos e instalación
 Prerrequisitos
 JDK 17+
 
