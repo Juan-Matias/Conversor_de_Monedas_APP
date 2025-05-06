@@ -30,6 +30,9 @@ graph TD
     C --> E[API Externa]
     D --> F[conversion_history.json]
     B --> G[InvalidCurrencyException]
+
+```
+
 📊 Diagrama de Clases
 Diagrama UML
 
