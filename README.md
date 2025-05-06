@@ -4,8 +4,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![API](https://img.shields.io/badge/API-ExchangeRate--API-orange)
 
+
 <div align="center">
-  <img src="https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/main/src/Resource/currency-exchange.svg" width="200" alt="Icono conversor">
+  <img src="https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/39921214acd9031fca22cabf3deeac0d6a961777/src/Resource/currency-exchange.svg" width="200" alt="Icono conversor">
 </div>
 
 ## 📝 Descripción
