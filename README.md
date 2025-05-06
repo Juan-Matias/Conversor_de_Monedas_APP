@@ -33,45 +33,43 @@ graph TD
 
 ```mermaid
 classDiagram
+    class Main {
+        +main(args: String[]): void
+    }
+
     class CurrencyConverter {
-        +convert(amount: double, from: String, to: String): ConversionResult
+        +convert(from: String, to: String, amount: double): ConversionResult
     }
-    
+
     class ExchangeRateApi {
-        +getExchangeRate(from: String, to: String): double
+        +getRate(from: String, to: String): double
     }
-    
+
     class ConversionResult {
         <<record>>
-        -from: String
-        -to: String
-        -rate: double
-        -result: double
-        +from(): String
-        +to(): String
-        +rate(): double
-        +result(): double
+        +from: String
+        +to: String
+        +rate: double
+        +result: double
     }
-    
+
     class ConversionHistory {
         +saveConversion(result: ConversionResult): void
         +loadHistory(): List~ConversionResult~
     }
-    
+
     class InvalidCurrencyException {
         +InvalidCurrencyException(message: String)
     }
-    
-    class Main {
-        +main(args: String[]): void
-    }
-    
-    CurrencyConverter --> ExchangeRateApi : usa
-    CurrencyConverter --> ConversionResult : genera
-    CurrencyConverter --> ConversionHistory : registra
-    CurrencyConverter --> InvalidCurrencyException : lanza
+
+    %% Relaciones
     Main --> CurrencyConverter : utiliza
+    CurrencyConverter --> ExchangeRateApi : consulta tasa
+    CurrencyConverter --> ConversionResult : devuelve
+    CurrencyConverter --> ConversionHistory : guarda
+    ExchangeRateApi --> InvalidCurrencyException : lanza
 ```
+
 ## 🛠 Detalles de Implementación
 
 ### 🔧 Componentes principales
