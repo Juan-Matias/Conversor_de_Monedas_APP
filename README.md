@@ -6,7 +6,7 @@
 
 
 <div align="center">
-  <img src="https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/39921214acd9031fca22cabf3deeac0d6a961777/src/Resource/currency-exchange.svg" width="200" alt="Icono conversor">
+  <img src="hhttps://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/0c9554d8504f3a4e9cc1cdd00d73d273c7830afe/src/Resource/currency-exchange.svg" width="200" alt="Icono conversor">
 </div>
 
 ## 📝 Descripción
