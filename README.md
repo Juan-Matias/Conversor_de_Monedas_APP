@@ -29,10 +29,6 @@ ConversorDeMoneda/
 ## Diagrama de Clases
 ![Diagrama UML](https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/fdf3869fe8262bca14ee16d82aa3a31251c99e22/src/Resource/Diagrama_de_clases.png)
 
-
-## Diagrama de Clases
-![Diagrama de Clases](resources/diagram.png)
-
 ## Detalles de Implementación
 - **CurrencyConverter**: Esta clase contiene la lógica para realizar las conversiones entre monedas. Se conecta a la API ExchangeRate-API para obtener las tasas de cambio.
 - **ExchangeRateApi**: Se encarga de la interacción con la API REST que proporciona las tasas de cambio entre monedas.
