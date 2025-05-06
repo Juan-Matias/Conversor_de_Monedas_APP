@@ -27,5 +27,5 @@ ConversorDeMoneda/
     └── diagram.png                 <-- Diagrama de clases (en formato PNG)
 ```
 ## Diagrama de Clases
-![Diagrama UML](https://github.com/Juan-Matias/proyecto-cajero-automatico/blob/e425aa150bc6184f151ab83093fa7720b3941df4/CajeroAutomatico(UML).png)
+![Diagrama UML](https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/fdf3869fe8262bca14ee16d82aa3a31251c99e22/src/Resource/Diagrama_de_clases.png)
 
