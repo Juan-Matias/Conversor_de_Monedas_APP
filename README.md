@@ -33,8 +33,49 @@ graph TD
 
 ```
 
-📊 Diagrama de Clases
-Diagrama UML
+## 📊 Diagrama de Clases
+
+```mermaid
+classDiagram
+    class CurrencyConverter {
+        +convert(amount: double, from: String, to: String): ConversionResult
+    }
+    
+    class ExchangeRateApi {
+        +getExchangeRate(from: String, to: String): double
+    }
+    
+    class ConversionResult {
+        <<record>>
+        -from: String
+        -to: String
+        -rate: double
+        -result: double
+        +from(): String
+        +to(): String
+        +rate(): double
+        +result(): double
+    }
+    
+    class ConversionHistory {
+        +saveConversion(result: ConversionResult): void
+        +loadHistory(): List~ConversionResult~
+    }
+    
+    class InvalidCurrencyException {
+        +InvalidCurrencyException(message: String)
+    }
+    
+    class Main {
+        +main(args: String[]): void
+    }
+    
+    CurrencyConverter --> ExchangeRateApi : usa
+    CurrencyConverter --> ConversionResult : genera
+    CurrencyConverter --> ConversionHistory : registra
+    CurrencyConverter --> InvalidCurrencyException : lanza
+    Main --> CurrencyConverter : utiliza
+```
 
 🛠 Detalles de Implementación
 🔧 Componentes principales
