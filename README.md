@@ -76,15 +76,17 @@ classDiagram
     CurrencyConverter --> InvalidCurrencyException : lanza
     Main --> CurrencyConverter : utiliza
 ```
+## 🛠 Detalles de Implementación
 
-🛠 Detalles de Implementación
-🔧 Componentes principales
-CurrencyConverter: Motor principal de conversión
+### 🔧 Componentes principales
 
-java
+**CurrencyConverter**: Motor principal de conversión  
+```java
 public ConversionResult convert(double amount, String from, String to) {
   // Lógica de conversión
 }
+```
+
 ExchangeRateApi: Cliente REST para la API
 
 java
