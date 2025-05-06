@@ -1,31 +1,37 @@
-# 💰Conversor de Moneda
+# 💱 Conversor de Moneda con API
 
-## Descripción
-Este es un **conversor de monedas** simple que utiliza la API de **ExchangeRate-API** para realizar conversiones entre varias monedas, como Dólar, Peso argentino, Real brasileño y Peso colombiano. El proyecto está desarrollado en **Java** y permite realizar conversiones desde la consola de manera interactiva.
+![Java](https://img.shields.io/badge/Java-17%2B-blue?logo=java)
+![License](https://img.shields.io/badge/License-MIT-green)
+![API](https://img.shields.io/badge/API-ExchangeRate--API-orange)
 
-## Funcionalidades
-- Conversión de Dólar a Peso argentino
-- Conversión de Peso argentino a Dólar
-- Conversión de Dólar a Real brasileño
-- Conversión de Real brasileño a Dólar
-- Conversión de Dólar a Peso colombiano
-- Conversión de Peso colombiano a Dólar
+<div align="center">
+  <img src="https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/main/src/Resource/currency-exchange.svg" width="200" alt="Icono conversor">
+</div>
 
-## Estructura del Proyecto
+## 📝 Descripción
+Un **conversor de monedas** moderno desarrollado en Java que utiliza la API de [ExchangeRate-API](https://www.exchangerate-api.com/) para conversiones en tiempo real entre las principales monedas de América Latina.
 
-```plaintext
-ConversorDeMoneda/
-├── Aplicacion
-│   └── Main.java                    <-- Menú principal (consola)
-├── Libreria
-│   ├── CurrencyConverter.java       <-- Lógica para convertir monedas
-│   ├── ExchangeRateApi.java        <-- Llamada a la API REST
-│   ├── ConversionResult.java       <-- Record con resultado (from, to, rate, result)
-│   ├── ConversionHistory.java      <-- Historial de conversiones
-│   └── InvalidCurrencyException.java <-- Excepción para monedas no válidas
-└── resources
-    └── diagram.png                 <-- Diagrama de clases (en formato PNG)
+## ✨ Características principales
+| Funcionalidad | Monedas | Estado |
+|--------------|---------|--------|
+| Conversión básica | USD ↔ ARS | ✅ |
+| Conversión básica | USD ↔ BRL | ✅ |
+| Conversión básica | USD ↔ COP | ✅ |
+| Historial de conversiones | JSON | ✅ |
+| Manejo de errores | Custom Exceptions | ✅ |
+
+## 🏗 Estructura del proyecto
+
+```mermaid
+graph TD
+    A[Main.java] --> B[CurrencyConverter]
+    B --> C[ExchangeRateApi]
+    B --> D[ConversionHistory]
+    C --> E[API Externa]
+    D --> F[conversion_history.json]
+    B --> G[InvalidCurrencyException]
 ```
+
 ## Diagrama de Clases
 ![Diagrama UML](https://github.com/Juan-Matias/Conversor_de_Monedas_APP/blob/fdf3869fe8262bca14ee16d82aa3a31251c99e22/src/Resource/Diagrama_de_clases.png)
 
