@@ -89,14 +89,16 @@ public ConversionResult convert(double amount, String from, String to) {
 
 ExchangeRateApi: Cliente REST para la API
 
-java
+```java
 public double getExchangeRate(String from, String to) throws IOException {
   // Consumo de API
 }
+```
+
 📂 Persistencia de datos
 El historial se guarda en formato JSON:
 
-json
+```json
 [
   {
     "from": "USD",
@@ -105,6 +107,8 @@ json
     "result": 21050.0
   }
 ]
+```
+
 🚀 Cómo usar
 Ejecuta la aplicación:
 
@@ -127,9 +131,11 @@ Maven 3.6+
 API Key de ExchangeRate-API
 
 Instalación
-bash
+```bash
 git clone https://github.com/Juan-Matias/Conversor_de_Monedas_APP.git
 cd Conversor_de_Monedas_APP
+```
+
 mvn clean install
 📜 Licencia
 Este proyecto está bajo licencia MIT. Ver archivo LICENSE para más detalles.
