@@ -89,7 +89,7 @@ public double getExchangeRate(String from, String to) throws IOException {
 }
 ```
 
-📂 Persistencia de datos
+## 📂 Persistencia de datos
 El historial se guarda en formato JSON:
 
 ```json
