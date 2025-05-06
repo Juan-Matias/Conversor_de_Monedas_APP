@@ -1,4 +1,4 @@
-# Conversor de Moneda
+# 💰Conversor de Moneda
 
 ## Descripción
 Este es un **conversor de monedas** simple que utiliza la API de **ExchangeRate-API** para realizar conversiones entre varias monedas, como Dólar, Peso argentino, Real brasileño y Peso colombiano. El proyecto está desarrollado en **Java** y permite realizar conversiones desde la consola de manera interactiva.
@@ -25,3 +25,7 @@ ConversorDeMoneda/
 │   └── InvalidCurrencyException.java <-- Excepción para monedas no válidas
 └── resources
     └── diagram.png                 <-- Diagrama de clases (en formato PNG)
+```
+## Diagrama de Clases
+![Diagrama UML](https://github.com/Juan-Matias/proyecto-cajero-automatico/blob/e425aa150bc6184f151ab83093fa7720b3941df4/CajeroAutomatico(UML).png)
+
