@@ -9,7 +9,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        final String apiKey = "1036aba11f612b530dd9ba4e"; // Clave de la API
+        // Import
+        final String apiKey = "MY_API_KEY"; // Cambiar API KEY
+        
         CurrencyConverter converter = new CurrencyConverter(apiKey); // Inicializa el conversor de moneda
         ConversionHistory history = new ConversionHistory("conversion_history.json"); // Historial de conversiones
         Scanner scanner = new Scanner(System.in);
