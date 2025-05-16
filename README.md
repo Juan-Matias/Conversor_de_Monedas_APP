@@ -17,6 +17,9 @@ Un **conversor de monedas** moderno desarrollado en Java que utiliza la API de [
 | Manejo de errores | Custom Exceptions | ✅ |
 
 ## 🏗 Estructura del proyecto
+```
+todo-list/ ├── index.html ├── style.css └── script.js
+``
 
 ```mermaid
 graph TD
